@@ -15,7 +15,7 @@
 void New_Teacher()
 {
     system("cls"); /*clear the screen */
-    char add_another_teacher;  /*to cheek if the user need to add another Teacher */
+    char add_another_teacher;  /*to check if the user needs to add another Teacher */
 
     Teacher_Information Information; /*create a structure to store Teacher Information */
     ofstream writeData("Teacher_Information.txt",ios::app);  /*create file to store Teacher Information*/
